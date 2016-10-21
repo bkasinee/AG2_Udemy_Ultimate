@@ -18,7 +18,7 @@ describe('App: Angular2', () => {
     expect(app).toBeTruthy();
   }));
 
-  it(`should have as title 'app works!'`, async(() => {
+  it(`should have as title 'Angular2!'`, async(() => {
     let fixture = TestBed.createComponent(AppComponent);
     let app = fixture.debugElement.componentInstance;
     expect(app.title).toEqual('app works!');
